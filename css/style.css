@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 500px;
+    background-color: white
+  }  
+
+
+ul {
+    list-style: none;
+}
+
+
+a {
+      text-decoration: none;
+      padding: 1rem;
+  }
+  
+  
+  .navbar-items {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .navbar-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 1rem 1rem;
+      font-size: 20px;
+      /* padding: 0 1rem; */
+  }
+
+  .navbar-item a:hover {
+      background: #95b377;
+      /* border-bottom: 1px solid darkgray; */
+      border-radius: 5px;
+      padding: 15px 5;
+
+  }
+
+  .navbar-btn {
+    /* display: inline-block; */
+    background-color: #4484f1; 
+    color: #fff;
+    padding: 10px ;
+    text-align: center;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+  .navbar-btn:hover {
+      background: #95b377;
+      color: #000;
+  }
+
+  /* goole search section*/
+
+  .google-search .google-search__logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5rem;
+  }
+
+
+ .google-search__form  {
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+  }
+
+
+  .google-search__form input {
+    width: 500px;
+    height: 50pxpx;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 25px;
+    outline: none;
+}
+
+
+  .google-search__btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin:  10px;
+      border: 1px solid #fff;
+      font-size: 1rem;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .google-search__btn1 {
+    background: #fff;
+    color: #a3969627;
+    border: 3px solid;
+    padding: 15px;
+}
+
+.google-search__btn2 {
+    background: #fff;
+    color: #646464;
+    border: 3px solid;
+    padding: 15px;
+}
+
+.google-search__btn1, .google-search__btn2:hover {
+    color: #373737;
+    border: 5px solid lightgray;
+}
+
+.google-search__lang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-location {
+    background: #0000001a;
+    padding-left: 27px;
+    margin-top: 15%;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0000001a;
+}
+
+
+
+
+  
+  
