@@ -17,6 +17,7 @@ ul {
 
 
 a {
+    color: #444;
       text-decoration: none;
       padding: 1rem;
   }
@@ -27,23 +28,24 @@ a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 1rem;
+    padding: .5rem;
   }
 
   .navbar-item {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin: 1rem 1rem;
-      font-size: 20px;
-      /* padding: 0 1rem; */
+      margin: .3rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      padding: 15px 5;
   }
 
   .navbar-item a:hover {
-      background: #95b377;
+      /* background: #95b377; */
       /* border-bottom: 1px solid darkgray; */
-      border-radius: 5px;
-      padding: 15px 5;
+      text-decoration: underline;
+     
 
   }
 
